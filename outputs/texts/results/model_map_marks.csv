@@ -1,0 +1,2 @@
+int_fold,str_structure,tp_str_structures,str_model,str_encoder,int_classes,str_activation,flt_rate,int_batch,int_epochs,str_mode,str_metric,str_optimiser,str_loss,int_channels,int_height,int_width,csv_model_map,csv_split,path_images,path_figures,path_history,path_masks,path_models,int_epoch,train_accuracy,train_recall,train_precision,train_dice,train_iou,val_accuracy,val_recall,val_precision,val_dice,val_iou,flt_model_number
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
