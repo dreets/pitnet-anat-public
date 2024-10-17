@@ -2,6 +2,7 @@
 
 This code is supplementary to the paper "A Multi-task Network for Anatomy Identification in Endoscopic Pituitary Surgery" and is based on https://github.com/qubvel-org/segmentation_models.pytorch, please cite these works if you find it useful.
 
+```bash
 @inbook{Das2023,
   title = {A Multi-task Network for Anatomy Identification in Endoscopic Pituitary Surgery},
   ISBN = {9783031439964},
@@ -24,7 +25,9 @@ This code is supplementary to the paper "A Multi-task Network for Anatomy Identi
   Howpublished = {\url{https://github.com/qubvel/segmentation_models.pytorch}}
 }
 
-The code follows the usual PEP8 standards, along with strong typing as outlined in PEP484 and PEP586 where deemed appropriate. The type of a variable is also found at the start of the variable name for ease of reading. The directory structure is self explantory with inputs/outputs/scripts. Within scripts, utils*.py files contain much of the processing code, whereas run*.py execute this code for neural network training and evaluation.
+```
+
+The code follows the usual PEP8 standards, along with strong typing as outlined in PEP484 and PEP586 where deemed appropriate. The type of a variable is also found at the start of the variable name for ease of reading. Within the scripts directory, utils*.py files contain the data and neural network initialisations, whereas run*.py execute this code for training and evaluation.
 
 The dataset is not publicly available.
 
