@@ -5,7 +5,6 @@ from pathlib import Path
 import torch
 from tqdm import tqdm
 
-
 # local imports
 from utils_eval import model_find_number
 from utils_eval import find_batch_iou
