@@ -1,8 +1,8 @@
 # global imports
 import argparse
 import numpy as np
-from pathlib import Path
 import torch
+from pathlib import Path
 from tqdm import tqdm
 
 # local imports
